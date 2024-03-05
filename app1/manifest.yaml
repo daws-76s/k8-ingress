@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: joindevops/ingress1:v1
+        image: joindevops/app1:v1
         imagePullPolicy: Always
         resources:
           requests:
